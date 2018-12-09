@@ -40,7 +40,7 @@ print(acc,auc)
 # In[5] 建模: Decision Tree
 dt = tree.DecisionTreeClassifier(random_state =2018)
 dt.fit(X_train, Y_train)
-predict_Y = lr.predict(X_test)
+predict_Y = dt.predict(X_test)
 acc = dt.score(X_test,Y_test)
 auc = metrics.roc_auc_score(Y_test,predict_Y)
 print(acc,auc)
