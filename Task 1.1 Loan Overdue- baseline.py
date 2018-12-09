@@ -27,6 +27,7 @@ plt.show()
 plt.hist(Y_test, bins=3)
 plt.show()
 # 存在数据不平衡问题的
+
 # In[4] 建模: Logistic回归
 lr = LogisticRegression(random_state =2018)
 lr.fit(X_train, Y_train)
@@ -53,7 +54,9 @@ acc = clf.score(X_test,Y_test)
 auc = metrics.roc_auc_score(Y_test,predict_Y)
 print(acc,auc)
 # 0.748423265592 0.5
-# In[] Summary
+
+# In[7] Summary
 '''
- 对拆分后的数据查看分布，还是拆分之前的总数据，并且要使得train和test的分布保持一致？
+ 1.对拆分后的数据查看分布，还是拆分之前的总数据，并且要使得train和test的分布保持一致？
+ 2.全都预测为不逾期，模型无意义。存在数据不平衡问题
 '''
