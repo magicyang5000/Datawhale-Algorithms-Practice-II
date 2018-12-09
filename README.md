@@ -5,9 +5,11 @@
 分为  
 1.业务理解（Business Understanding）  
 2.数据理解（Data Understanding）  
-3.数据准备（Data Preparation） 
+3.数据准备（Data Preparation）  
 4.建模（Modeling）  
 5.评估（Evaluation）  
-6.部署（Deployment） 
+6.部署（Deployment）  
+  
+详细信息见 https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining
 
 
