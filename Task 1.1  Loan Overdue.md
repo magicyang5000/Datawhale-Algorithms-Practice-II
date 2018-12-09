@@ -37,7 +37,7 @@ status的两个类别间严重不平衡，逾期:不逾期 ≈ 1:3
 ```Python
   dt = tree.DecisionTreeClassifier(random_state =2018)  
   dt.fit(over_samples_X, over_samples_y)  
-  predict_Y = lr.predict(X_test)  
+  predict_Y = dt.predict(X_test)  
 ```
 * SVM  
   
