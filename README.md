@@ -8,7 +8,7 @@
 3.数据准备（Data Preparation）  
 4.建模（Modeling）  
 5.评估（Evaluation）  
-6.部署（Deployment）  
+6.总结（Summary）（由于现在现在实践中并没有部署（Deployment）的事项，所以改为总结和遇到的问题）  
   
 详细信息见 https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining
 
