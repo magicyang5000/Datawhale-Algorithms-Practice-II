@@ -55,7 +55,7 @@ print(metrics.classification_report(Y_test, predict_Y))
 # In[6] 建模: Decision Tree
 dt = tree.DecisionTreeClassifier(random_state =2018)
 dt.fit(over_samples_X, over_samples_y)
-predict_Y = lr.predict(X_test)
+predict_Y = dt.predict(X_test)
 acc = metrics.accuracy_score(Y_test,predict_Y)
 auc = metrics.roc_auc_score(Y_test,predict_Y)
 print(acc,auc)
