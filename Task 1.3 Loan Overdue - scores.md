@@ -44,7 +44,7 @@
 **F1-值(F1-score)** = 2 * TP / (2 * TP+FP+FN)   
 在上面的例子中，F1-值 = 2 * 5 / (2 * 5+4+2) = 0.625  
 
-**AUC，Area under curve**
+**AUC，Area under curve**  
 ROC曲线下面积。取值范围[0.5,1]，越大表示越好。  
 AUC比以上指标能更为平衡的描述模型的好坏。  
   
