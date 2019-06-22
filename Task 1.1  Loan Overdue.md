@@ -109,6 +109,6 @@ Logistic回归和决策树，在数据平衡后效果较大的提升，AUC达到
   
   
   
-baseline代码链接：https://github.com/magicyang5000/Datawhale-Algorithms-Practice-II/blob/master/Task%201.1%20Loan%20Overdue%20-%20oversample.py  
+baseline代码链接：https://github.com/magicyang5000/Datawhale-Algorithms-Practice-II/blob/master/Task%201.1%20Loan%20Overdue%20-%20baseline.py 
   
-处理数据不平衡后代码链接：https://github.com/magicyang5000/Datawhale-Algorithms-Practice-II/blob/master/Task%201.1%20Loan%20Overdue%20-%20oversample.py
+处理数据不平衡后代码链接：https://github.com/magicyang5000/Datawhale-Algorithms-Practice-II/blob/master/Task%201.1%20Loan%20Overdue-%20oversample.py
